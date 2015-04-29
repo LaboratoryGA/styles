@@ -20,12 +20,37 @@ git clone https://github.com/LaboratoryGA/styles.git intranet/styles
 ```
 
 ## Usage
-The simplest way to use these styles is to add the following lines to the
+The simplest way to use these styles is to add the following line to the
 **top** of the Intranet site's ``style.css`` file:
 ```css
-@import url("/intranet/css/bootstrap-ext.css");
-@import url("/intranet/css/fastaction-slider.css");
-@import url("/intranet/css/grid.css");
+@import url("/intranet/css/styles.css");
+```
+
+If you do not favour this method of loading additional stylesheets, you may
+alternately add the load reference to the ``common/htmlheader.html`` file:
+```html
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 oldie" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 oldie" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 oldie" lang="en"><![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9 oldie" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<title>Claromentis <txt name="title_message"></txt></title>
+
+	<include file="core_head.html">
+	<!--- Load special stylesheets -->
+	<link rel="stylesheet" type="text/cs" href="/intranet/css/styles.css" />
+
+	<!--- favicon and apple touch icon -->
+	<link rel="shortcut icon" href="/images/icons/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/icons/intranet-touch-icon-57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/icons/intranet-touch-icon-72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/icons/intranet-touch-icon-114.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/icons/intranet-touch-icon-144.png" />
+</head>
+
+<body name="body-block">
 ```
 
 ### Bootstrap Extensions
