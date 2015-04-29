@@ -55,6 +55,8 @@ alternately add the load reference to the ``common/htmlheader.html`` file:
 
 ### Bootstrap Extensions
 #### Callouts
+![](https://raw.githubusercontent.com/LaboratoryGA/styles/master/img/screenshots/callouts.jpg)
+
 Although Bootstrap does offer alerts, these are intended as more transient
 pieces of visual information. By contrast, callouts provide a similar visual
 queue, but are intended more for permanent display in a site, like warnings
@@ -69,6 +71,8 @@ The appearance of these comes from the Bootstrap site itself.
 ```
 
 #### Panel
+![](https://raw.githubusercontent.com/LaboratoryGA/styles/master/img/screenshots/panels.jpg)
+
 Coming soon ...
 
 ### Fastaction Slider
