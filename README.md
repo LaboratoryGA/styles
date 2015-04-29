@@ -23,7 +23,7 @@ git clone https://github.com/LaboratoryGA/styles.git intranet/styles
 The simplest way to use these styles is to add the following line to the
 **top** of the Intranet site's ``style.css`` file:
 ```css
-@import url("/intranet/css/styles.css");
+@import url("/intranet/styles/css/styles.css");
 ```
 
 If you do not favour this method of loading additional stylesheets, you may

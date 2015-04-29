@@ -28,6 +28,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
-@import url("/intranet/css/bootstrap-ext.css");
-@import url("/intranet/css/fastaction-slider.css");
-@import url("/intranet/css/grid.css");
+@import url("bootstrap-ext.css");
+@import url("fastaction-slider.css");
+@import url("grid.css");
